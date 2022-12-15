@@ -1,0 +1,15 @@
+:root {
+    --background: #1e1e1e;
+    --textcolor: #cccccc;
+    --links: #42B0FF;
+    --button: #748486;
+    --headingfont1: 'Montserrat', sans-serif;
+    --contentfont: 'Lato', sans-serif;
+    --bgbox: #353941;
+    --headingcolor: #62b2e9;
+    --current: #ffff;
+    --accent: #f25e40;
+    --purple: #9c2780;
+    --currentnav: #272a80;
+    --hovernav: #748486;
+}

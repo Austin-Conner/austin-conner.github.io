@@ -1,0 +1,82 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,300;0,700;1,800&family=Satisfy&display=swap');
+@import "nav.css";
+:root {
+    --background: #1e1e1e;
+    --textcolor: #e2e2e2;
+    --links: #42B0FF;
+    --button: #748486;
+    --headingfont1: 'Montserrat', sans-serif;
+    --contentfont: 'Lato', sans-serif;
+    --bgbox: #353941;
+    --headingcolor: #62b2e9;
+    --current: #ffff;
+    --accent: #f25e40;
+    --purple: #9c2780;
+    --currentnav: #272a80;
+    --hovernav: #748486;
+    --logo: 'Patrick Hand', cursive, 'Montserrat', sans-serif;
+    --handwriting: 'Satisfy', cursive;
+    --accenttext: #000000;
+}
+
+* {
+    background-color: var(--background);
+}
+
+
+.wrote {
+    font-family: var(--handwriting);
+    margin: 13px;
+    font-size: 30px;
+}
+
+/*Make image sizing responsive */
+.personal {
+    display: block;
+    grid-area: photo;
+    margin: 0 auto;
+    align-self: center;
+    box-shadow: 7px 15px 30px black;
+    border-radius: 9px;
+}
+
+.greet {
+   color: var(--textcolor);
+   grid-area: hello;
+   display: grid;
+   align-self: center;
+   text-align: center;
+   color: var(--textcolor);
+   font-family: var(--contentfont);
+   word-spacing: 3px;
+   text-shadow: 3px 4px 20px var(--accenttext);
+   /* Make sizing responsive*/
+   font-size: 2vw;
+}  
+
+
+.container {
+    display: grid;
+    justify-items: center;
+    margin: 0 auto;
+    width: 900px;
+    height: auto;
+    gap: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'hello photo'
+    'hello photo';
+}
+
+
+
+
+
+
+

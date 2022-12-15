@@ -1,0 +1,69 @@
+@import "site.css";
+
+
+:root {
+    --background: #1e1e1e;
+    --textcolor: #cccccc;
+    --links: #42B0FF;
+    --button: #748486;
+    --headingfont: 'Montserrat', sans-serif;
+    --contentfont: 'Lato', sans-serif;
+    --bgbox: #353941;
+    --headingcolor: #62b2e9;
+    --current: #ffff;
+    --accent: #f25e40;
+    --purple: #9c2780;
+    --currentnav: #272a80;
+    --hovernav: #748486;
+    --handwriting: 'Caveat', cursive;
+}
+
+.container {
+    display: grid;
+    padding-left: 1.1vw;
+    padding-right: 1.1vw;
+    margin: 0 auto;
+    width: min(100ch, 85%);
+    margin-top: 3rem;
+    justify-items: center;
+    background-color: var(--bgbox);
+    border-radius: 10px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'heading'
+    'words' 
+
+}
+
+p {
+    grid-area: words;
+    font-family: var(--contentfont);
+    color: var(--textcolor);
+    background-color: transparent;
+    text-align: left;
+    word-spacing: 1.5px;
+    line-height: 25px;
+    font-size: 17px;   
+
+}
+
+i {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h1 {
+    grid-area: heading;
+    font-family: var(--headingfont1);
+    color: var(--headingcolor);
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+e {
+    font-family: var(--handwriting);
+    font-size: 33px;
+    background: transparent;
+    color: var(--accent);
+}
+

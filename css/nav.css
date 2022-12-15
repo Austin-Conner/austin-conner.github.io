@@ -1,0 +1,73 @@
+h1.name {
+    font-family: var(--logo);
+    color: var(--accent);;
+}
+
+/* Navigation Layout */
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding-right: 1.7vw;
+    padding-left: 1.7vw;
+}
+
+li.navitems {
+    width: 120px;
+    height: auto;
+    padding: 8px;
+    list-style: none;
+    text-align: center;
+    font-family: var(--headingfont1);
+    border-radius: 12px;
+    font-weight: 300;
+    font-size: 20px;
+    box-shadow: 6px 7px 15px black;
+    background-color: var(--background);
+    border: transparent solid 3px;
+    transition: border 0.4s ease-out;
+}
+
+
+a.link {
+    /* Makes the entire button clickable */
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    margin: -2em;
+    /* ^^^^^^^^^ */
+    color: var(--textcolor);
+    text-decoration: none;
+    background: none;
+}
+
+/* Hover Animaiton and Current */
+li.navitems:hover:not(#current) {
+    border-color: var(--hovernav);
+}
+
+#current {
+    background-color: var(--currentnav);
+}
+
+/* Making Nav Responsive */
+
+/*tablets*/
+@media screen and (max-width: 768px) {
+    li.navitems {
+        font-size: 17px;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 364px) {
+    li.navitems {
+        font-size: 14px;
+
+    }
+}
