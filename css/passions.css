@@ -17,33 +17,25 @@
 }
 
 p {
+    grid-area: words;
     font-family: var(--contentfont);
     color: var(--textcolor);
     background-color: transparent;
     text-align: left;
     word-spacing: 1.5px;
     line-height: 25px;
-    font-size: 17px;   
-
-}
-
-i {
-    background-color: transparent;
-    text-decoration: underline;
+    font-size: 17px;
 }
 
 h1 {
+    grid-area: heading;
     font-family: var(--headingfont1);
     color: var(--headingcolor);
     background-color: transparent;
     margin-bottom: 0px;
-    align-self: center;
 }
 
-.handwriting {
-    font-family: var(--handwriting);
-    font-size: 33px;
-    background: transparent;
+.passion {
     color: var(--accent);
+    background-color: transparent;
 }
-

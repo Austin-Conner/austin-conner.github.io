@@ -1,7 +1,4 @@
-h1.name {
-    font-family: var(--logo);
-    color: var(--accent);;
-}
+/*---Changes here will affect ENTIRE site.---*/
 
 /* Navigation Layout */
 
@@ -52,22 +49,23 @@ li.navitems:hover:not(#current) {
 }
 
 #current {
-    background-color: var(--currentnav);
+background: var(--background);
+animation: fadeBackground 0.9s;
+animation-fill-mode: forwards;
 }
+
+@keyframes fadeBackground {
+    from { background-color: var(--background); }
+    to { background-color: var(--currentnav); }
+  }
 
 /* Making Nav Responsive */
 
 /*tablets*/
-@media screen and (max-width: 768px) {
-    li.navitems {
-        font-size: 17px;
-    }
-}
-
-/*mobile*/
-@media screen and (max-width: 364px) {
-    li.navitems {
+@media screen and (max-width: 530px) {
+    a {
+        align-items: center;
         font-size: 14px;
-
     }
+
 }

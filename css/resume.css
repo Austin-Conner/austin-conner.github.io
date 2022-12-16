@@ -1,0 +1,125 @@
+@import "site.css";
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 12px;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    position: relative;
+    background-color: var(--bgbox);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    align-self: stretch;
+    box-shadow: 4px 4px 10px black;
+
+}
+
+/*Sections*/
+section {
+    text-align: center;
+    color: var(--headingcolor);
+    font-family: var(--headingfont1);
+    font-weight: 700;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.415);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+
+/* Work Experience Cards */
+.job, .school {
+    background-color: transparent;
+    color: var(--accent);
+    font-family: var(--contentfont);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    margin: 10px;
+    margin-bottom: 7px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.location {
+    background-color: transparent;
+    color: var(--textcolor);
+    font-family: var(--contentfont);
+    font-weight: 400;
+    font-size: 17px;
+    margin: 1px;
+}
+
+.date {
+    background-color: transparent;
+    color: var(--textcolor);
+    font-family: var(--contentfont);
+    font-size: 14px;
+    margin: 2px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.duties {
+    background-color: transparent;
+    color: var(--textcolor);
+    font-family: var(--contentfont);
+    text-align: left;
+    padding-bottom: 8px;
+}
+
+#wvgold {
+    color: var(--wvgold)
+}
+
+.studyarea {
+    background-color: transparent;
+    text-align: center;
+    font-family: var(--contentfont);
+    color: var(--textcolor);
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#phs {
+    color: var(--phs);
+}
+
+.skill {
+    background-color: transparent;
+    color: var(--textcolor);
+    font-family: var(--contentfont);
+    font-weight: 400;
+    font-size: 17px;
+    margin: 1px;
+}
+
+.skill-card {
+    width: 160px;
+    height: auto;
+    position: relative;
+    background-color: var(--bgbox);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    align-self: stretch;
+        box-shadow: 4px 4px 10px black;
+}

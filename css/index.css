@@ -1,0 +1,40 @@
+@import "site.css";
+
+/*Make image sizing responsive */
+.personal {
+    display: grid;
+    margin: 0 auto;
+    align-self: center;
+    box-shadow: 7px 15px 50px black;
+    border-radius: 9px;
+    width: auto;
+    height: 500px;
+}
+
+.greet {
+   color: var(--textcolor);  
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   color: var(--textcolor);
+   font-family: var(--contentfont);
+   word-spacing: 3px;
+   /* Make sizing responsive*/
+   font-size: 60px;
+   padding: 30px;
+   text-shadow: 4px 4px 10px black;
+}  
+
+span {
+    color: var(--headingcolor);
+}
+
+/* Breakpoints */
+@media only screen and (max-width: 700px){
+    .personal {
+        height: 300px;
+    }
+    .greet {
+        font-size: 40px;
+    }
+}

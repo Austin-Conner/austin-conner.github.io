@@ -1,3 +1,9 @@
+/*---Changes here will affect ENTIRE site.---*/
+
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,300;0,700;1,800&display=swap');
+
+/* Variables */
 :root {
     --background: #1e1e1e;
     --textcolor: #cccccc;
@@ -12,4 +18,10 @@
     --purple: #9c2780;
     --currentnav: #272a80;
     --hovernav: #748486;
+    --handwriting: 'Caveat', cursive;
+    --wvblue: #0362cf;
+    --wvgold: #EAAA00;
+    --phs: #C0C0C0;
 }
+
+

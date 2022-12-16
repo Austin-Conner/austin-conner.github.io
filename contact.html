@@ -4,18 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/about.css">
-    <title>A.C. Home</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>A.C. Contact</title>
 </head>
 <body>
 <header>
     <nav>
-        <ul class="navbar">
-            <li class="navitems"><a class="link" href="#">Home</a></li>
-            <li id="current" class="navitems"><a class="link" href="about.html">About Me</a></li>
-            <li class="navitems"><a class="link" href="resume.html">Resume</a></li>
-            <li class="navitems"><a class="link" href="passions.html">Passions</a></li>
-            <li class="navitems"><a class="link" href="contact.html">Contact</a></li>
-        </ul>
-</nav>
+            <ul class="navbar">
+                <li class="navitems"><a class="link" href="index.html">Home</a></li>
+                <li class="navitems"><a class="link" href="about.html">About Me</a></li>
+                <li class="navitems"><a class="link" href="resume.html">Resume</a></li>
+                <li class="navitems"><a class="link" href="passions.html">Passions</a></li>
+                <li id="current" class="navitems"><a class="link" href="#">Contact</a></li>
+            </ul>
+    </nav>
 </header>
+<main>
+    <div class="container">
+        <div class="items">
+        <h1 class="title">Let's get in touch.</h1>
+        <form action="https://formspree.io/f/xqkozkjv" method="POST" role="form"> 
+            <table cellspacing="0" cellpadding="0">
+                <thead>
+                  <tr>
+                    <th><label for="name">What's your name?</label></th>
+                    <th><input type="text" name="name" required></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><label for="reason">What's up?</label></td>
+                    <td><input type="text" name="reason" required></td>
+                  </tr>
+                  <tr>
+                    <td><label for="returnemail">How can I reach you?</label></td>
+                    <td><input type="email" name="returnemail" required></td>
+                  </tr>
+                </tbody>
+                </table>
+                <button type="submit" role="button">Submit.</button>
+            </form>
+    </div>
+</main>
+</body>

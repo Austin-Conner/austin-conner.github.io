@@ -1,0 +1,72 @@
+@import "site.css";
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px;
+    background-color: transparent;
+
+}
+
+.items {
+    width: 300px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    align-self: stretch;
+    box-shadow: 4px 4px 10px black;
+    background-color: var(--bgbox);
+}
+
+.title {
+    background-color: transparent;
+    color: var(--headingcolor);
+    font-family: var(--contentfont);
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    margin: 10px;
+    margin-bottom: 7px;
+    text-shadow: 3px 3px 5px black;
+}
+
+table {
+    border: none;;
+}
+
+form, td, th, tr, label, input{
+    background-color: var(--bgbox);
+}
+
+th, td {
+    padding: 10px;
+}
+
+label {
+    color: var(--textcolor);
+    font-family: var(--contentfont);
+    font-weight: 400;
+}
+
+input {
+    background-color: white;
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--accent);
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-family: var(--contentfont);
+    color: black;
+    font-weight: 900;
+    font-size: 15px;
+}
