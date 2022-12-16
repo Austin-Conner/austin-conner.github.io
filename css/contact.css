@@ -30,7 +30,6 @@
     color: var(--headingcolor);
     font-family: var(--contentfont);
     font-weight: 700;
-    font-style: bold;
     font-size: 24px;
     margin: 10px;
     margin-bottom: 7px;
@@ -38,7 +37,12 @@
 }
 
 table {
-    border: none;;
+    border: none;
+    border-spacing: 0px;
+    border-collapse: separate;
+    padding: 0px;
+
+    
 }
 
 form, td, th, tr, label, input{

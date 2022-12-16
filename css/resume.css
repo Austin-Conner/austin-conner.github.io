@@ -27,7 +27,7 @@
 }
 
 /*Sections*/
-section {
+.section {
     text-align: center;
     color: var(--headingcolor);
     font-family: var(--headingfont1);
@@ -48,7 +48,6 @@ section {
     color: var(--accent);
     font-family: var(--contentfont);
     font-weight: 700;
-    font-style: bold;
     font-size: 24px;
     margin: 10px;
     margin-bottom: 7px;
@@ -82,7 +81,7 @@ section {
     padding-bottom: 8px;
 }
 
-#wvgold {
+.wvgold {
     color: var(--wvgold)
 }
 
